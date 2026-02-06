@@ -7,21 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
-    "lint": "eslint .",
     "preview": "vite preview",
+    "lint": "eslint .",
     "test": "vitest run",
-    "test:watch": "vitest"
-  },"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  
-  }, 
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build"
-  }, 
+    "test:watch": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    // هنا تكتب كل dependencies الموجودة عندك
+  },
+  "devDependencies": {
+    // هنا تكتب كل devDependencies الموجودة عندك
+  }
+}, 
   "homepage": "https://abdo10rabea472.github.io/future-equip-shop", 
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
